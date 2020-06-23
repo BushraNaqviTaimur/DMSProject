@@ -70,12 +70,14 @@ public class Login_Interface extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(null);
 
+        label_username.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/userbtn.png"))); // NOI18N
         label_username.setText("  UserName");
         getContentPane().add(label_username);
-        label_username.setBounds(160, 170, 160, 50);
+        label_username.setBounds(80, 130, 230, 200);
 
         Button_SignIn.setBackground(new java.awt.Color(255, 255, 255));
-        Button_SignIn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        Button_SignIn.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
+        Button_SignIn.setForeground(new java.awt.Color(255, 255, 255));
         Button_SignIn.setText("Sign in");
         Button_SignIn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Button_SignIn.addActionListener(new java.awt.event.ActionListener() {
@@ -88,6 +90,7 @@ public class Login_Interface extends javax.swing.JFrame {
 
         Label_heading.setBackground(new java.awt.Color(153, 255, 255));
         Label_heading.setFont(new java.awt.Font("Avenir", 1, 24)); // NOI18N
+        Label_heading.setForeground(new java.awt.Color(255, 255, 255));
         Label_heading.setText("  ENTER  CREDIENTIALS");
         getContentPane().add(Label_heading);
         Label_heading.setBounds(150, 20, 310, 48);

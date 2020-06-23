@@ -179,9 +179,10 @@ public class ViewPatientData extends javax.swing.JFrame
         }
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(0, 90, 710, 340);
+        jScrollPane1.setBounds(10, 90, 710, 340);
 
         jButton1_search.setBackground(new java.awt.Color(255, 255, 255));
+        jButton1_search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/search.png"))); // NOI18N
         jButton1_search.setText("Search");
         jButton1_search.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_search.addActionListener(new java.awt.event.ActionListener() {
@@ -190,11 +191,11 @@ public class ViewPatientData extends javax.swing.JFrame
             }
         });
         getContentPane().add(jButton1_search);
-        jButton1_search.setBounds(587, 29, 110, 50);
+        jButton1_search.setBounds(560, 30, 110, 50);
 
         jTextField1.setBackground(new java.awt.Color(0, 153, 255));
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(50, 30, 520, 50);
+        jTextField1.setBounds(30, 30, 520, 50);
 
         jMenuBar1.setBackground(new java.awt.Color(121, 228, 255));
 

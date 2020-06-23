@@ -91,32 +91,41 @@ public Welcome_page(User user)
 
         Label_heading.setBackground(new java.awt.Color(51, 255, 255));
         Label_heading.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
-        Label_heading.setText("   Dental Clinic Management System");
+        Label_heading.setForeground(new java.awt.Color(255, 255, 255));
+        Label_heading.setText("Dental Clinic Management System");
         getContentPane().add(Label_heading);
-        Label_heading.setBounds(120, 10, 750, 80);
+        Label_heading.setBounds(150, 30, 770, 70);
 
         label_welcome.setFont(new java.awt.Font("Lucida Grande", 3, 24)); // NOI18N
+        label_welcome.setForeground(new java.awt.Color(255, 255, 255));
         label_welcome.setText("HELLO,");
         getContentPane().add(label_welcome);
         label_welcome.setBounds(160, 120, 380, 50);
 
         btnPatientsHistory.setBackground(new java.awt.Color(0, 0, 0));
+        btnPatientsHistory.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/historybtn.png"))); // NOI18N
+        btnPatientsHistory.setBorderPainted(false);
         btnPatientsHistory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPatientsHistoryActionPerformed(evt);
             }
         });
         getContentPane().add(btnPatientsHistory);
-        btnPatientsHistory.setBounds(320, 270, 190, 110);
+        btnPatientsHistory.setBounds(350, 250, 120, 130);
 
+        btnAppointmentsList.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/list.png"))); // NOI18N
+        btnAppointmentsList.setBorderPainted(false);
         btnAppointmentsList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAppointmentsListActionPerformed(evt);
             }
         });
         getContentPane().add(btnAppointmentsList);
-        btnAppointmentsList.setBounds(780, 260, 180, 120);
+        btnAppointmentsList.setBounds(780, 240, 180, 130);
 
+        btnExpensesRecord.setBackground(new java.awt.Color(0, 102, 255));
+        btnExpensesRecord.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/historybtn.png"))); // NOI18N
+        btnExpensesRecord.setBorderPainted(false);
         btnExpensesRecord.setPreferredSize(new java.awt.Dimension(650, 325));
         btnExpensesRecord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,6 +135,8 @@ public Welcome_page(User user)
         getContentPane().add(btnExpensesRecord);
         btnExpensesRecord.setBounds(560, 260, 160, 120);
 
+        btnMedicinesRecord.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/medicinerecordbtn.png"))); // NOI18N
+        btnMedicinesRecord.setBorderPainted(false);
         btnMedicinesRecord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMedicinesRecordActionPerformed(evt);
@@ -135,21 +146,25 @@ public Welcome_page(User user)
         btnMedicinesRecord.setBounds(90, 250, 140, 130);
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 2, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("MEDICINES & EQUIPMENTS");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(50, 380, 240, 40);
 
         jLabel2.setFont(new java.awt.Font("Lucida Grande", 2, 16)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("HISTORY OF PATIENTS");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(330, 380, 180, 40);
 
         jLabel3.setFont(new java.awt.Font("Lucida Grande", 2, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(" APPOINTMENT LIST ");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(790, 380, 180, 40);
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 2, 16)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(" RECORD OF EXPENSES");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(550, 380, 190, 40);
