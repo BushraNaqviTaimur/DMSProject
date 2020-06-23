@@ -107,7 +107,7 @@ public Welcome_page(User user)
             }
         });
         getContentPane().add(btnPatientsHistory);
-        btnPatientsHistory.setBounds(340, 270, 190, 110);
+        btnPatientsHistory.setBounds(320, 270, 190, 110);
 
         btnAppointmentsList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,7 +115,7 @@ public Welcome_page(User user)
             }
         });
         getContentPane().add(btnAppointmentsList);
-        btnAppointmentsList.setBounds(800, 210, 180, 120);
+        btnAppointmentsList.setBounds(780, 260, 180, 120);
 
         btnExpensesRecord.setPreferredSize(new java.awt.Dimension(650, 325));
         btnExpensesRecord.addActionListener(new java.awt.event.ActionListener() {
@@ -124,7 +124,7 @@ public Welcome_page(User user)
             }
         });
         getContentPane().add(btnExpensesRecord);
-        btnExpensesRecord.setBounds(620, 260, 160, 120);
+        btnExpensesRecord.setBounds(560, 260, 160, 120);
 
         btnMedicinesRecord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,27 +132,27 @@ public Welcome_page(User user)
             }
         });
         getContentPane().add(btnMedicinesRecord);
-        btnMedicinesRecord.setBounds(90, 260, 140, 130);
+        btnMedicinesRecord.setBounds(90, 250, 140, 130);
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 2, 18)); // NOI18N
         jLabel1.setText("MEDICINES & EQUIPMENTS");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(50, 410, 240, 40);
+        jLabel1.setBounds(50, 380, 240, 40);
 
         jLabel2.setFont(new java.awt.Font("Lucida Grande", 2, 16)); // NOI18N
         jLabel2.setText("HISTORY OF PATIENTS");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(340, 410, 180, 40);
+        jLabel2.setBounds(330, 380, 180, 40);
 
         jLabel3.setFont(new java.awt.Font("Lucida Grande", 2, 18)); // NOI18N
         jLabel3.setText(" APPOINTMENT LIST ");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(800, 330, 180, 40);
+        jLabel3.setBounds(790, 380, 180, 40);
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 2, 16)); // NOI18N
         jLabel4.setText(" RECORD OF EXPENSES");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(620, 410, 190, 40);
+        jLabel4.setBounds(550, 380, 190, 40);
 
         Label_backimage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/appbackground.png"))); // NOI18N
         Label_backimage.setText("jLabel3");
