@@ -42,10 +42,10 @@ public Welcome_page(User user)
             case "Receptionist":
             {
                 btnAppointmentsList.setVisible(true);
-                btnExpensesRecord.setVisible(false);
+                btnExpensesRecord.setVisible(true);
                 btnMedicinesRecord.setVisible(true);
                 btnPatientsHistory.setVisible(true);
-                jLabel4.setVisible(false);
+                jLabel4.setVisible(true);
                 break;
             }
             case "Admin":
@@ -102,30 +102,34 @@ public Welcome_page(User user)
         getContentPane().add(label_welcome);
         label_welcome.setBounds(160, 120, 380, 50);
 
-        btnPatientsHistory.setBackground(new java.awt.Color(0, 0, 0));
+        btnPatientsHistory.setBackground(new java.awt.Color(0, 153, 255));
         btnPatientsHistory.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/historybtn.png"))); // NOI18N
         btnPatientsHistory.setBorderPainted(false);
+        btnPatientsHistory.setContentAreaFilled(false);
         btnPatientsHistory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPatientsHistoryActionPerformed(evt);
             }
         });
         getContentPane().add(btnPatientsHistory);
-        btnPatientsHistory.setBounds(350, 250, 120, 130);
+        btnPatientsHistory.setBounds(330, 240, 170, 140);
 
+        btnAppointmentsList.setBackground(new java.awt.Color(0, 153, 255));
         btnAppointmentsList.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/list.png"))); // NOI18N
         btnAppointmentsList.setBorderPainted(false);
+        btnAppointmentsList.setContentAreaFilled(false);
         btnAppointmentsList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAppointmentsListActionPerformed(evt);
             }
         });
         getContentPane().add(btnAppointmentsList);
-        btnAppointmentsList.setBounds(780, 240, 180, 130);
+        btnAppointmentsList.setBounds(790, 250, 170, 130);
 
-        btnExpensesRecord.setBackground(new java.awt.Color(0, 102, 255));
+        btnExpensesRecord.setBackground(new java.awt.Color(0, 153, 255));
         btnExpensesRecord.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/historybtn.png"))); // NOI18N
         btnExpensesRecord.setBorderPainted(false);
+        btnExpensesRecord.setContentAreaFilled(false);
         btnExpensesRecord.setPreferredSize(new java.awt.Dimension(650, 325));
         btnExpensesRecord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,8 +139,10 @@ public Welcome_page(User user)
         getContentPane().add(btnExpensesRecord);
         btnExpensesRecord.setBounds(560, 260, 160, 120);
 
+        btnMedicinesRecord.setBackground(new java.awt.Color(0, 153, 255));
         btnMedicinesRecord.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/medicinerecordbtn.png"))); // NOI18N
         btnMedicinesRecord.setBorderPainted(false);
+        btnMedicinesRecord.setContentAreaFilled(false);
         btnMedicinesRecord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMedicinesRecordActionPerformed(evt);

@@ -80,6 +80,8 @@ public class Login_Interface extends javax.swing.JFrame {
         Button_SignIn.setForeground(new java.awt.Color(255, 255, 255));
         Button_SignIn.setText("Sign in");
         Button_SignIn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Button_SignIn.setBorderPainted(false);
+        Button_SignIn.setContentAreaFilled(false);
         Button_SignIn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Button_SignInActionPerformed(evt);
