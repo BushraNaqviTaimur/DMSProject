@@ -37,11 +37,17 @@ public class ViewMedicinesrecord extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel3 = new javax.swing.JLabel();
         jButton1_medicines = new javax.swing.JButton();
         jButton2_equipments = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+
+        jLabel3.setBackground(new java.awt.Color(0, 102, 255));
+        jLabel3.setMaximumSize(new java.awt.Dimension(724, 471));
+        jLabel3.setMinimumSize(new java.awt.Dimension(724, 471));
+        jLabel3.setPreferredSize(new java.awt.Dimension(724, 471));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 51, 255));
@@ -50,38 +56,44 @@ public class ViewMedicinesrecord extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(724, 471));
         getContentPane().setLayout(null);
 
+        jButton1_medicines.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/medicinerecordbtn copy.png"))); // NOI18N
+        jButton1_medicines.setBorderPainted(false);
+        jButton1_medicines.setContentAreaFilled(false);
         jButton1_medicines.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1_medicinesActionPerformed(evt);
             }
         });
         getContentPane().add(jButton1_medicines);
-        jButton1_medicines.setBounds(120, 110, 200, 200);
+        jButton1_medicines.setBounds(110, 140, 250, 180);
 
+        jButton2_equipments.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/Blood_Pressure_Kit-512.png"))); // NOI18N
+        jButton2_equipments.setBorderPainted(false);
+        jButton2_equipments.setContentAreaFilled(false);
         jButton2_equipments.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2_equipmentsActionPerformed(evt);
             }
         });
         getContentPane().add(jButton2_equipments);
-        jButton2_equipments.setBounds(410, 110, 210, 190);
+        jButton2_equipments.setBounds(420, 80, 240, 260);
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 2, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 2, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("   Medicines");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(170, 320, 130, 50);
+        jLabel1.setBounds(100, 360, 220, 50);
 
-        jLabel2.setFont(new java.awt.Font("Lucida Grande", 2, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Lucida Grande", 2, 36)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("     Equipments");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(430, 330, 150, 30);
+        jLabel2.setBounds(390, 360, 280, 40);
 
-        jLabel3.setBackground(new java.awt.Color(0, 102, 255));
-        jLabel3.setMaximumSize(new java.awt.Dimension(724, 471));
-        jLabel3.setMinimumSize(new java.awt.Dimension(724, 471));
-        jLabel3.setPreferredSize(new java.awt.Dimension(724, 471));
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, 0, 860, 500);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/appbackground copy.png"))); // NOI18N
+        jLabel4.setText("jLabel4");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(0, 0, 720, 470);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -135,5 +147,6 @@ public class ViewMedicinesrecord extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }
