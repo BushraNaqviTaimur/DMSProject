@@ -45,7 +45,6 @@ public class InsertAppointmentData extends javax.swing.JFrame
         jLabel5 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -64,21 +63,28 @@ public class InsertAppointmentData extends javax.swing.JFrame
         getContentPane().add(tbName);
         tbName.setBounds(370, 140, 330, 40);
 
+        tbdate.setForeground(new java.awt.Color(102, 102, 102));
         tbdate.setText("yyyy-MM-dd HH:mm:ss");
         getContentPane().add(tbdate);
         tbdate.setBounds(370, 190, 330, 40);
 
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Patient ID ");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(220, 90, 90, 30);
 
+        jLabel2.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(" Patient Name");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(220, 140, 120, 40);
+        jLabel2.setBounds(210, 140, 160, 40);
 
+        jLabel3.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("   Date & Time");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(210, 190, 120, 40);
+        jLabel3.setBounds(200, 190, 150, 40);
 
         jTextField_treatment.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,29 +92,32 @@ public class InsertAppointmentData extends javax.swing.JFrame
             }
         });
         getContentPane().add(jTextField_treatment);
-        jTextField_treatment.setBounds(370, 240, 340, 50);
+        jTextField_treatment.setBounds(370, 240, 330, 50);
 
-        jLabel5.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("   Treatment");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(210, 250, 110, 40);
+        jLabel5.setBounds(210, 250, 120, 40);
 
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/approve.png"))); // NOI18N
+        jButton1.setBorderPainted(false);
+        jButton1.setContentAreaFilled(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(470, 300, 110, 100);
+        jButton1.setBounds(500, 320, 90, 70);
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 3, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("            NEW APPOINTMENT");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(200, 10, 420, 50);
 
-        jLabel6.setText("jLabel6");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(20, 70, 180, 190);
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/appbackground copy.png"))); // NOI18N
         getContentPane().add(jLabel7);
         jLabel7.setBounds(0, 0, 830, 490);
 
@@ -204,7 +213,6 @@ public class InsertAppointmentData extends javax.swing.JFrame
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JTextField jTextField_treatment;
     private javax.swing.JTextField tbID;
