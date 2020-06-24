@@ -49,7 +49,6 @@ public class InsertMedicineRecordForm extends javax.swing.JFrame
         jTextField3_ebill = new javax.swing.JTextField();
         jTextField4_wbill = new javax.swing.JTextField();
         jTextField5_maintenance = new javax.swing.JTextField();
-        jLabel6 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
 
@@ -59,6 +58,9 @@ public class InsertMedicineRecordForm extends javax.swing.JFrame
         setResizable(false);
         getContentPane().setLayout(null);
 
+        jButton1_add.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/approve.png"))); // NOI18N
+        jButton1_add.setBorderPainted(false);
+        jButton1_add.setContentAreaFilled(false);
         jButton1_add.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1_addActionPerformed(evt);
@@ -67,30 +69,35 @@ public class InsertMedicineRecordForm extends javax.swing.JFrame
         getContentPane().add(jButton1_add);
         jButton1_add.setBounds(540, 390, 90, 100);
 
-        jLabel1_month.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel1_month.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel1_month.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1_month.setText("Generic Name");
         getContentPane().add(jLabel1_month);
-        jLabel1_month.setBounds(220, 80, 120, 40);
+        jLabel1_month.setBounds(210, 80, 130, 40);
 
-        jLabel2_payments.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel2_payments.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel2_payments.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2_payments.setText("Company Name");
         getContentPane().add(jLabel2_payments);
-        jLabel2_payments.setBounds(220, 140, 120, 40);
+        jLabel2_payments.setBounds(190, 140, 150, 40);
 
-        jLabel3_ebill.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel3_ebill.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel3_ebill.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3_ebill.setText("Medicine Name");
         getContentPane().add(jLabel3_ebill);
-        jLabel3_ebill.setBounds(220, 210, 110, 30);
+        jLabel3_ebill.setBounds(190, 210, 140, 30);
 
-        jLabel4_wbill.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel4_wbill.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel4_wbill.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4_wbill.setText("   Quantity");
         getContentPane().add(jLabel4_wbill);
         jLabel4_wbill.setBounds(230, 260, 110, 40);
 
         jLabel5_maintenance.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel5_maintenance.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5_maintenance.setText("Cost");
         getContentPane().add(jLabel5_maintenance);
-        jLabel5_maintenance.setBounds(260, 320, 60, 50);
+        jLabel5_maintenance.setBounds(280, 320, 60, 50);
 
         jTextField1_month.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -120,14 +127,13 @@ public class InsertMedicineRecordForm extends javax.swing.JFrame
         getContentPane().add(jTextField5_maintenance);
         jTextField5_maintenance.setBounds(370, 310, 400, 70);
 
-        jLabel6.setText("jLabel6");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(10, 90, 200, 230);
-
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 3, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("            MEDICINES");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(150, 20, 420, 50);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/appbackground copy.png"))); // NOI18N
         getContentPane().add(jLabel7);
         jLabel7.setBounds(0, 0, 840, 500);
 
@@ -206,7 +212,6 @@ public class InsertMedicineRecordForm extends javax.swing.JFrame
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel4_wbill;
     private javax.swing.JLabel jLabel5_maintenance;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JTextField jTextField1_month;
     private javax.swing.JTextField jTextField2_payments;
