@@ -47,7 +47,6 @@ public class InsertPatientData extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
 
@@ -84,25 +83,32 @@ public class InsertPatientData extends javax.swing.JFrame {
         jTextField_PDH.setBounds(410, 180, 360, 50);
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Patient ID");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(270, 60, 140, 40);
 
         jLabel2.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Full Name");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(270, 110, 87, 22);
 
         jLabel3.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Contact");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(280, 150, 70, 30);
+        jLabel3.setBounds(290, 150, 70, 30);
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("PDH");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(280, 190, 80, 40);
+        jLabel4.setBounds(320, 190, 80, 40);
 
+        btnAddNewRecord.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/approve.png"))); // NOI18N
+        btnAddNewRecord.setBorderPainted(false);
+        btnAddNewRecord.setContentAreaFilled(false);
         btnAddNewRecord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAddNewRecordActionPerformed(evt);
@@ -130,28 +136,30 @@ public class InsertPatientData extends javax.swing.JFrame {
         jTextField_DHx.setBounds(410, 330, 360, 50);
 
         jLabel5.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("PMH");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(280, 240, 60, 40);
+        jLabel5.setBounds(320, 230, 60, 40);
 
         jLabel6.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText(" PSH");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(280, 290, 60, 40);
+        jLabel6.setBounds(320, 280, 60, 40);
 
         jLabel7.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("DHx");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(290, 330, 50, 40);
+        jLabel7.setBounds(320, 320, 50, 40);
 
-        jLabel8.setText("jLabel6");
-        getContentPane().add(jLabel8);
-        jLabel8.setBounds(20, 60, 180, 190);
-
-        jLabel10.setFont(new java.awt.Font("Lucida Grande", 3, 24)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Lucida Grande", 3, 36)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("            History Of Patient ");
         getContentPane().add(jLabel10);
-        jLabel10.setBounds(200, 10, 420, 50);
+        jLabel10.setBounds(140, 10, 510, 50);
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/appbackground copy.png"))); // NOI18N
         getContentPane().add(jLabel9);
         jLabel9.setBounds(0, 0, 840, 500);
 
@@ -243,7 +251,6 @@ public class InsertPatientData extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JTextField jTextField_DHx;
     private javax.swing.JTextField jTextField_PDH;
