@@ -44,7 +44,6 @@ public class InsertEquipmentRecordForm extends javax.swing.JFrame {
         jTextField2_payments = new javax.swing.JTextField();
         jTextField4_wbill = new javax.swing.JTextField();
         jTextField5_maintenance = new javax.swing.JTextField();
-        jLabel6 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
 
@@ -54,33 +53,40 @@ public class InsertEquipmentRecordForm extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(null);
 
+        jButton1_add.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/approve.png"))); // NOI18N
+        jButton1_add.setBorderPainted(false);
+        jButton1_add.setContentAreaFilled(false);
         jButton1_add.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1_addActionPerformed(evt);
             }
         });
         getContentPane().add(jButton1_add);
-        jButton1_add.setBounds(460, 350, 110, 100);
+        jButton1_add.setBounds(540, 350, 110, 100);
 
-        jLabel1_month.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel1_month.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel1_month.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1_month.setText("Equipment Name");
         getContentPane().add(jLabel1_month);
-        jLabel1_month.setBounds(220, 110, 120, 40);
+        jLabel1_month.setBounds(180, 110, 160, 40);
 
-        jLabel2_payments.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel2_payments.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel2_payments.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2_payments.setText("    State");
         getContentPane().add(jLabel2_payments);
-        jLabel2_payments.setBounds(240, 160, 80, 40);
+        jLabel2_payments.setBounds(260, 160, 80, 40);
 
-        jLabel4_wbill.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel4_wbill.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel4_wbill.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4_wbill.setText("   Quantity");
         getContentPane().add(jLabel4_wbill);
-        jLabel4_wbill.setBounds(230, 230, 80, 20);
+        jLabel4_wbill.setBounds(230, 230, 110, 30);
 
-        jLabel5_maintenance.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel5_maintenance.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel5_maintenance.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5_maintenance.setText("   Cost");
         getContentPane().add(jLabel5_maintenance);
-        jLabel5_maintenance.setBounds(240, 280, 80, 50);
+        jLabel5_maintenance.setBounds(270, 280, 80, 50);
 
         jTextField1_month.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,14 +108,14 @@ public class InsertEquipmentRecordForm extends javax.swing.JFrame {
         getContentPane().add(jTextField5_maintenance);
         jTextField5_maintenance.setBounds(360, 270, 380, 60);
 
-        jLabel6.setText("jLabel6");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(20, 110, 180, 190);
-
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 3, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("            Equipments ");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(150, 20, 420, 50);
+
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dental_management_system/images/appbackground copy.png"))); // NOI18N
         getContentPane().add(jLabel7);
         jLabel7.setBounds(0, 0, 830, 490);
 
@@ -182,7 +188,6 @@ public class InsertEquipmentRecordForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel4_wbill;
     private javax.swing.JLabel jLabel5_maintenance;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JTextField jTextField1_month;
     private javax.swing.JTextField jTextField2_payments;
